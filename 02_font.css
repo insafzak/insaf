@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth@0,87.5;1,87.5&display=swap');
+body {
+    font-family: 'Roboto' sans-serif;
+    font-size: 15px;
+    /* line-height: 15px; */
+    font-weight: normal;
+    background: #f1f1f1;
+    color: #0f141e;
+}
+
+.container {
+    width: 750px;
+    margin: auto;
+    padding-top:30px ;
+}
+
+ a {
+        color: deepskyblue;
+        transition: all .2s;
+    }
+
+    a:hover {
+        color: #0a017e;
+        font-size: 2rem;
+    }
+
+    a:visited {
+        color: grey;
+    }
+
+.info {
+        display: flex;
+        /* flex-direction: column; */
+        margin-bottom: 20px;
+    }
+
+.info-text {
+    margin-left: 20px;
+}
+
+    img{
+    max-width: 100%;
+    height: auto;
+}
+
+.photo {
+    width: 150px;
+    border-radius: 26px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0, .25%);
+}
+
+
+
+.info p{
+    height: auto;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+    color: #86898f;
+     padding-bottom: 0px;
+    }
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+.hobbi {
+    width: 100%;
+    border-width: 2px;
+    border-color: none;
+    border-style: none;    
+    border-radius: 5px;
+    background: rgb(245, 189, 189);
+    /* padding-left: 15px; */
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    }
+    .hobbi ol {padding-left: 17px;}
+    .hobbi li {
+        color: #2f2f2f;
+        padding-bottom: 6px;
+    }
+
+    .job {
+        width: 100%;
+    border-width: 2px;
+    border-color: rgb(118, 141, 148);
+    border-style: none;    
+    border-radius: 5px;
+    background: rgb(118, 141, 148);
+    padding: 20px 20px;
+    margin-bottom: 20px;
+        }
+
+tr:first-child th,
+tr:first-child td {
+                    text-align: left;
+                    }
+
+.table td:nth-child(2),
+.table td:nth-child(3){
+            color: #3a3b3b
+        }
+    .job table {
+        width: 700px;
+    } 
+
+    .form h2 {
+        text-align: center;
+    }
+
+    .form-group label {
+        display: block;
+        font-size: 14px;
+    }
+
+    .form-group input {
+        width: 60%;
+        box-sizing: border-box;
+        /* border: none; */
+    }
+
+    .btn {
+        background: #111;
+        padding: 7px 20px;
+        color: aliceblue;
+        border: none;
+        margin-left:100px ;
+        cursor: pointer;
+        border-radius: 5px;
+        font-family: inherit;
+    }
+
+    .btn:hover {
+        opacity: 0.8;
+    }
+
+    /* .td, .th {
+        vertical-align: top;
+        padding: 2px 19px;
+    } */
